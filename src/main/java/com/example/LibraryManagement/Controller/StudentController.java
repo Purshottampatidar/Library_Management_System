@@ -23,7 +23,7 @@ public class StudentController {
         return studentService.getStudent(studentId);
     }
 
-    @GetMapping("/basicDetails")
+    @GetMapping("/git basicDetails")
     public BasicDetailsStudentResponse getBasicDetails(@RequestParam("studentId") Integer studentId) {
         return studentService.getBasicDetails(studentId);
     }
